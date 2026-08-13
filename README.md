@@ -213,15 +213,16 @@ show mac address-table
 
 ### VLAN Verification
 
-![Switch VLAN Brief](screenshots/switch-vlan-brief.png)
+<img width="1399" height="544" alt="image" src="https://github.com/user-attachments/assets/63d99b9e-c6a6-44d3-9e8d-cd3240d59705" />
+
 
 ### Trunk Verification
 
-![Switch Trunk Status](screenshots/switch-trunk-status.png)
+![Switch Trunk Status](switch-trunk-status.png)
 
 ### Interface Verification
 
-![Switch Interface Status](screenshots/switch-interface-status.png)
+![Switch Interface Status](switch-interface-status.png)
 
 ---
 
