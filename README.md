@@ -218,11 +218,11 @@ show mac address-table
 
 ### Trunk Verification
 
-![Switch Trunk Status](switch-trunk-status.png)
+![Switch Trunk Status]([switch-trunk-status.png](https://github.com/gurveer6123-coder/Small-Business-Enterprise-Network-Cisco-Packet-Tracer/blob/main/switch-trunk%20status.png?raw=true))
 
 ### Interface Verification
 
-![Switch Interface Status](switch-interface-status.png)
+![Switch Interface Status]()
 
 ---
 
