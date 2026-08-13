@@ -218,12 +218,10 @@ show mac address-table
 
 ### Trunk Verification
 
-![Switch Trunk Status]([switch-trunk-status.png](https://github.com/gurveer6123-coder/Small-Business-Enterprise-Network-Cisco-Packet-Tracer/blob/main/switch-trunk%20status.png?raw=true))
+<img width="1302" height="404" alt="image" src="https://github.com/user-attachments/assets/68a9846e-f1bd-4917-ae98-a0c326fef1fc" />
 
 ### Interface Verification
-
-![Switch Interface Status](<img width="1474" height="412" alt="image" src="https://github.com/user-attachments/assets/a6c88573-be7c-4ac3-9893-41f194149905" />
-)
+<img width="1474" height="412" alt="image" src="https://github.com/user-attachments/assets/00c73495-f4de-4b10-a61e-e91ac6fd6e0c" />
 
 ---
 
@@ -313,7 +311,8 @@ show ip dhcp binding
 
 ### DHCP Verification
 
-![Router DHCP Bindings](screenshots/router-dhcp-bindings.png)
+<img width="1474" height="412" alt="image" src="https://github.com/user-attachments/assets/26a69e86-b690-48d2-9c34-742b0cdbe365" />
+
 
 ---
 
@@ -405,7 +404,8 @@ It also contained a default route toward `10.0.0.1`.
 
 ### Routing Table
 
-![Company Router Routing Table](screenshots/router-routing-table.png)
+<img width="1435" height="787" alt="image" src="https://github.com/user-attachments/assets/ca24e5a5-9787-425f-812c-69ef929df736" />
+
 
 ---
 
@@ -445,7 +445,8 @@ G0/1 → ISP
 
 ### Firewall Interfaces
 
-![Firewall IP Interfaces](screenshots/firewall-ip-interfaces.png)
+<img width="856" height="397" alt="image" src="https://github.com/user-attachments/assets/6f65bd8b-3663-44e7-8229-4dd6cd555278" />
+
 
 ---
 
@@ -500,7 +501,8 @@ The firewall routing table contained:
 
 ### Firewall Routing Table
 
-![Firewall Routing Table](screenshots/firewall-routing-table.png)
+<img width="1606" height="645" alt="image" src="https://github.com/user-attachments/assets/b5be3479-461c-4ed3-b601-f6bb67b93406" />
+
 
 ---
 
@@ -569,7 +571,8 @@ This confirmed that NAT/PAT was operating correctly.
 
 ### NAT Translation Screenshot
 
-![Firewall NAT Translations](screenshots/firewall-nat-translations.png)
+<img width="1373" height="231" alt="image" src="https://github.com/user-attachments/assets/8fee5af6-2a59-4e82-9949-08abf62578a3" />
+
 
 ---
 
@@ -610,7 +613,8 @@ ISP G0/1 = 198.18.0.1/24
 
 ### ISP Interface Verification
 
-![ISP Interface Status](screenshots/isp-interface-status.png)
+<img width="861" height="356" alt="image" src="https://github.com/user-attachments/assets/90fa395e-1a6f-467e-a01d-c849efa1a338" />
+
 
 ---
 
@@ -636,7 +640,8 @@ This verified connectivity between the ISP network and the simulated Internet se
 
 ### ISP-to-Server Verification
 
-![ISP Server Ping Success](screenshots/isp-server-ping-success.png)
+<img width="865" height="264" alt="image" src="https://github.com/user-attachments/assets/89f52330-57a3-47d6-9115-5f3f079749f1" />
+
 
 ---
 
@@ -783,7 +788,8 @@ The counters proved that the ACL was actively processing real test traffic.
 
 ### ACL Verification Screenshot
 
-![Router ACL Rules](screenshots/router-acl-rules.png)
+<img width="1420" height="259" alt="image" src="https://github.com/user-attachments/assets/9e5c8143-ae5b-4081-bba2-9da43e5dfa7f" />
+
 
 ---
 
@@ -793,29 +799,11 @@ Multiple tests were performed from the CIS / Employee workstation.
 
 ---
 
-## Test 1 - Employee Access to Management VLAN
 
-The Employee PC attempted to reach the Management VLAN gateway.
-
-```text
-ping 192.168.10.1
-```
-
-The connection failed as expected.
-
-This confirmed that the ACL successfully prevents employees from accessing the Management network.
-
-### Result
-
-```text
-Employee VLAN → Management VLAN = BLOCKED
-```
-
-![Employee Management Access Blocked](screenshots/employee-management-blocked.png)
 
 ---
 
-## Test 2 - Employee Ping to Internal Server
+## Test - Employee Ping to Internal Server
 
 The employee workstation attempted to ping the internal company server:
 
@@ -837,11 +825,12 @@ The ping failed because the ACL allows HTTP and HTTPS to the server but blocks o
 Employee VLAN → Server ICMP = BLOCKED
 ```
 
-![Employee Server Ping Blocked](screenshots/employee-server-ping-blocked.png)
+
+<img width="884" height="472" alt="image" src="https://github.com/user-attachments/assets/4ce23e1a-ecd4-4395-bd3d-aae24c77b6b1" />
 
 ---
 
-## Test 3 - Employee HTTP Access to Internal Server
+## Test - Employee HTTP Access to Internal Server
 
 Although ping traffic was blocked, the employee workstation was allowed to access the web service.
 
@@ -861,7 +850,8 @@ This confirmed that TCP port 80 was allowed while unwanted traffic remained bloc
 Employee VLAN → Server HTTP = ALLOWED
 ```
 
-![Server HTTP Access Success](screenshots/server-http-access-success.png)
+<img width="951" height="1138" alt="Screenshot 2026-08-13 125742" src="https://github.com/user-attachments/assets/d738921e-1367-4ada-ae62-6ed9a22a6f8f" />
+
 
 ---
 
@@ -911,13 +901,6 @@ ISP
 Internet Server
 ```
 
-### Result
-
-```text
-Employee VLAN → Internet Server = SUCCESS
-```
-
-![Employee Internet Ping Success](screenshots/employee-internet-ping-success.png)
 
 ---
 
