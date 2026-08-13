@@ -84,7 +84,7 @@ The Internet test server represents an external destination used to verify end-t
 
 ## Network Topology Screenshot
 
-![Complete Network Topology](screenshots/network-topology.png)
+<img width="1320" height="530" alt="image" src="https://github.com/user-attachments/assets/a2826fab-1fa8-4db4-81ef-f1839d8a72ed" />
 
 ---
 
