@@ -222,7 +222,8 @@ show mac address-table
 
 ### Interface Verification
 
-![Switch Interface Status]()
+![Switch Interface Status](<img width="1474" height="412" alt="image" src="https://github.com/user-attachments/assets/a6c88573-be7c-4ac3-9893-41f194149905" />
+)
 
 ---
 
@@ -280,7 +281,7 @@ show ip interface brief
 
 The router showed active subinterfaces for all three VLANs.
 
-![Router IP Interfaces](screenshots/router-ip-interfaces.png)
+![Router IP Interfaces](https://github.com/gurveer6123-coder/Small-Business-Enterprise-Network-Cisco-Packet-Tracer/blob/main/router-ip-interfaces.png?raw=true)
 
 ---
 
