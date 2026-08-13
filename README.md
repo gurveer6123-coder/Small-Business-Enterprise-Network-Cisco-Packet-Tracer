@@ -19,8 +19,8 @@ The traffic path to the simulated Internet is:
 CIS PC → Switch → Company Router → Firewall Router → ISP Router → Internet Server
 
 ### Topology Screenshot
+<img width="1320" height="530" alt="network topology" src="https://github.com/user-attachments/assets/02e86e6a-aa38-46a6-a3a6-8f5b8b6216f4" />
 
-Add the complete Packet Tracer topology screenshot here later.
 
 ---
 
